@@ -312,15 +312,9 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/juansepulveda/MDN-exercises",
-		"/Users/juansepulveda/MDN-exercises/Marking-a-letter",
-		"/Users/juansepulveda/MDN-exercises/scripts",
-		"/Users/juansepulveda/MDN-exercises/styles"
-	],
 	"file_history":
 	[
+		"/Users/juansepulveda/Desktop/Act Wiki Soledad corregida.html",
 		"/Users/juansepulveda/MDN-exercises/index.html",
 		"/Users/juansepulveda/MDN-exercises/styles/style.css",
 		"/Users/juansepulveda/MDN-exercises/scripts/main.js",
@@ -453,7 +447,7 @@
 		"height": 30.0
 	},
 	"pinned_build_system": "",
-	"project": "MDNexercises.sublime-project",
+	"project": "letter.sublime-project",
 	"replace":
 	{
 		"height": 48.0
@@ -493,9 +487,9 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 286.0,
-	"status_bar_visible": true,
+	"status_bar_visible": false,
 	"template_settings":
 	{
 	}
