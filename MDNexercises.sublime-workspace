@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"ra",
+				"random"
+			],
+			[
+				"ma",
+				"Math"
+			],
+			[
+				"guess",
+				"guessSubmit"
+			],
+			[
+				"reset",
+				"resetButton"
+			],
+			[
+				"res",
+				"resultParas"
+			],
+			[
+				"c",
+				"click"
+			],
+			[
+				"text",
+				"textContent"
+			],
+			[
+				"gue",
+				"guessField"
+			],
+			[
+				"gues",
+				"guessSubmit"
+			],
+			[
+				"gu",
+				"guessField"
+			],
+			[
+				"ran",
+				"randomNumber"
+			],
+			[
+				"ba",
+				"backgroundColor"
+			],
+			[
+				"te",
+				"textContent"
+			],
+			[
+				"g",
+				"guessField"
+			],
+			[
+				"l",
+				"lowOrHi"
+			],
+			[
 				"a",
 				"abbr\tTag"
 			],
@@ -26,14 +86,6 @@
 			[
 				"nom",
 				"nombreAlmacenado"
-			],
-			[
-				"g",
-				"genial"
-			],
-			[
-				"text",
-				"text-shadow\tproperty"
 			],
 			[
 				"Le",
@@ -104,10 +156,6 @@
 				"getElementById"
 			],
 			[
-				"l",
-				"link\tTag"
-			],
-			[
 				"i",
 				"innerHTML"
 			],
@@ -160,20 +208,12 @@
 				"border-bottom-width\tproperty"
 			],
 			[
-				"ba",
-				"background-color\tproperty"
-			],
-			[
 				"bor",
 				"border-style\tproperty"
 			],
 			[
 				"h",
 				"html\thtml"
-			],
-			[
-				"te",
-				"text-align\tproperty"
 			],
 			[
 				"A",
@@ -279,6 +319,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Javascript/adivinanumero.html",
+			"settings":
+			{
+				"buffer_size": 3504,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -314,17 +363,15 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/juansepulveda/MDN-exercises",
-		"/Users/juansepulveda/MDN-exercises/Marking-a-letter",
-		"/Users/juansepulveda/MDN-exercises/scripts",
-		"/Users/juansepulveda/MDN-exercises/styles"
+		"/Users/juansepulveda/MDN-exercises"
 	],
 	"file_history":
 	[
+		"/Users/juansepulveda/MDN-exercises/Javascript/apply-javascript.html",
+		"/Users/juansepulveda/MDN-exercises/Marking-a-letter/letter.html",
 		"/Users/juansepulveda/MDN-exercises/index.html",
 		"/Users/juansepulveda/MDN-exercises/styles/style.css",
 		"/Users/juansepulveda/MDN-exercises/scripts/main.js",
-		"/Users/juansepulveda/MDN-exercises/Marking-a-letter/letter.html",
 		"/Users/juansepulveda/web-parenteral-nutrition/index.html",
 		"/Users/juansepulveda/Documents/Proyectos Hospital/Nutrición Parenteral/web version/index.html",
 		"/Users/juansepulveda/Documents/Proyectos Hospital/Nutrición Parenteral/web version/NPCAVRRweb.sublime-project",
@@ -408,8 +455,40 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Javascript/adivinanumero.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1426,
+								1426
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"wrap_width": 80
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -490,10 +569,10 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 286.0,
 	"status_bar_visible": true,
 	"template_settings":
