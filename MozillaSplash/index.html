@@ -99,6 +99,7 @@
   <body>
     <header>
       <h1>Mozilla</h1>
+      <img src="firefox_logo-only_RGB120.png" alt="A red fox around a blue sphere">
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
 
@@ -107,6 +108,7 @@
     <main>
       <article>
         <!-- insert iframe from youtube -->
+        <iframe width="400" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <h2>Rocking the free web</h2>
 
@@ -118,22 +120,34 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+          <img srcset="firefox_logo-only_RGB120.png 120w, firefox_logo-only_RGB400.png 400w" 
+                sizes="(max-width: 500px) 120px, 400 px" 
+          src="firefox_logo-only_RGB400.png"
+          alt="A red fox around a blue sphere">
         </a>
         <a href="https://www.mozilla.org/">
-          <img>
+          <img srcset="mozilla-dinosaur-head120.png 120w, mozilla-dinosaur-head400.png 400w" 
+                sizes="(max-width: 500px) 120px, 400 px" src="mozilla-dinosaur-head400.png"
+                alt="The head of a dinosaur in red and black">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img>
+          <img srcset="firefox-addons120.jpg 120w, firefox-addons.jpg 400w" 
+                sizes="(max-width: 500px) 120px, 400 px" src="firefox-addons.jpg"
+                alt="A fragmented jigsaw version of firefox logo">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img>
+          <img src="mdn.svg" alt="four panels in light blue with the sillouhette of a dinosaur's head in white">
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
         <!-- insert picture element -->
+        <picture>
+          <source media="(max-width: 599px" srcset="red-panda600.jpg">
+          <source media="(min-width: 600px" srcset="red-panda1200.jpg">
+          <img src="red-panda1200.jpg" alt="A red panda in the forest">
+        </picture>
       </div>
 
     </main>
