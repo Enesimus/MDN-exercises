@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Otros controles Tareas 1 2 3</title>
+      <style type="text/css">
+        div, form {
+          margin: 2px;
+          border: 1px solid red;
+          border-radius: 3px;
+        }
+      </style>
+  </head>
+  <body>
+   <h2>Otros controles Tareas 1 2 3</h2>
+  <form id="1">
+    <h2>Enter your comment</h2>
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name">
+        </li>
+        <li>
+          <label for="comment">Comment:</label>
+          <textarea cols="35" rows="10" max-length="100" id="comment"></textarea>
+        </li>
+        <li>
+          <button>Submit comment</button>
+        </li>
+      </ul>
+<div>
+  <ul>
+    <li>
+      <label for="food">Pick your favorite food:</label>
+      <select id="food">
+      <optgroup label="Main">
+          <option>Salad</option>
+          <option>Curry</option>
+          <option>Pizza</option>
+          <option>Fajitas</option>
+      </optgroup>
+      <optgroup label="Snack">
+          <option>Biscuits</option>
+          <option>Crisps</option>
+          <option>Fruit</option>
+          <option>Breadsticks</option>
+      </optgroup>
+    </select>
+    </li>
+    <li>
+      <button>Submit choice 1</button>
+    </li>
+  </ul>
+</div>
+<div>
+  <ul>
+    <li>
+      <label for="food2">Enter your favorite food:</label>
+      <input type="text" id="food2" name="favfood" list="suggestions">
+      <datalist id="suggestions">
+         <option>Salad</option>
+          <option>Curry</option>
+          <option>Pizza</option>
+          <option>Fajitas</option>
+          <option>Biscuits</option>
+          <option>Crisps</option>
+          <option>Fruit</option>
+          <option>Breadsticks</option>
+        </datalist>
+    </li>
+    <li>
+      <button>Submit choice 2</button>
+    </li>
+  </ul>
+</div>
+</form>
+</body>
+</html>
