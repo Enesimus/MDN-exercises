@@ -1,0 +1,43 @@
+h1 {
+	color:red;
+}
+
+p, li {
+	color: green;
+}
+
+li {
+	list-style-type: square;
+}
+/*Selector de clase*/
+/*.special {
+	color: orange;
+	font-weight: bold;
+}*/
+
+/*Combinador descendente: solo selecciona los elemento <em> dentro de un elemento <li>*/
+li em {
+	color: rebeccapurple;
+}
+
+/*Combinador hermano adyacente: formato a un párrafo que esté en el mismo nivel de jerarquia*/
+h1 + p {
+	font-size: 200%;
+}
+
+p span {
+	color: red;
+}
+
+a:link {
+	color: pink;
+	font-weight: bold;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	text-decoration: none;
+}
